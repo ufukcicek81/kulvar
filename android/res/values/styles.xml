@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#2E5FA3</color>
+    <color name="brand_orange">#E9853F</color>
+    <color name="brand_bg">#F4F6FA</color>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/brand_blue</item>
+        <item name="android:colorPrimaryDark">@color/brand_blue</item>
+        <item name="android:colorAccent">@color/brand_orange</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">@color/brand_bg</item>
+    </style>
+</resources>

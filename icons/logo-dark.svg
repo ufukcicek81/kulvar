@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="Kulvar">
+  <g transform="skewX(-12) translate(10 0)">
+    <path d="M6 32c6-5 12-5 18 0s12 5 18 0" fill="none" stroke="#E9853F" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M6 41c6-5 12-5 18 0s12 5 18 0" fill="none" stroke="#8DB3E2" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="33" cy="11" r="5.5" fill="#E9853F"/>
+    <path d="M8 22l13-9 9 6 7-4" fill="none" stroke="#8DB3E2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="58" y="37" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-style="italic" font-size="33" letter-spacing="1" fill="#FFFFFF">KUL<tspan fill="#E9853F">VAR</tspan></text>
+</svg>

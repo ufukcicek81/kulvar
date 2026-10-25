@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kulvar — Yüzücü Takip</title>
+  <meta name="description" content="Yüzme yarış sonuçları, sporcu analizi, sıralamalar ve rekorlar.">
+  <meta name="theme-color" content="#2E5FA3">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn back-btn" id="backBtn" aria-label="Geri" hidden>
+      <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <a href="#/" class="brand" aria-label="Kulvar ana sayfa"><picture><source srcset="icons/logo-dark.svg" media="(prefers-color-scheme: dark)"><img src="icons/logo.svg" alt="Kulvar"></picture></a>
+    <a href="#/notifications" class="icon-btn bell" aria-label="Bildirimler">
+      <svg viewBox="0 0 24 24"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg>
+      <span class="dot" id="bellDot" hidden></span>
+    </a>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Ana menü">
+    <a href="#/" data-tab="home" aria-label="Ana sayfa">
+      <svg viewBox="0 0 24 24"><circle cx="16" cy="6" r="2.2"/><path d="M4 13l5-4 4 3 3-2"/><path d="M2 17c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0"/><path d="M2 21c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0"/></svg>
+      <span>Ana Sayfa</span></a>
+    <a href="#/search" data-tab="search" aria-label="Ara">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+      <span>Ara</span></a>
+    <a href="#/meets" data-tab="meets" aria-label="Yarışlar">
+      <svg viewBox="0 0 24 24"><path d="M7 4h10v4a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/><path d="M12 13v4M8 21h8M9 17h6"/></svg>
+      <span>Yarışlar</span></a>
+    <a href="#/news" data-tab="news" aria-label="Haberler">
+      <svg viewBox="0 0 24 24"><rect x="3" y="4" width="14" height="16" rx="1.5"/><path d="M17 8h3v10a2 2 0 0 1-2 2M6 8h8M6 12h8M6 16h5"/></svg>
+      <span>Haberler</span></a>
+    <a href="#/profile" data-tab="profile" aria-label="Profil">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+      <span>Profil</span></a>
+  </nav>
+
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+  <section class="sheet" id="sheet" hidden role="dialog" aria-modal="true"></section>
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
