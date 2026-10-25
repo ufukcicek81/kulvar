@@ -25,7 +25,7 @@ Kişisel verilerin korunması konusunda şu ilkeleri uygulamayı taahhüt ediyor
 - Uygulamada verilerin kaynağı “Türkiye Yüzme Federasyonu” olarak belirtilir.
 - Federasyonumuzun belirleyeceği KVKK ve aydınlatma metni gerekliliklerine uyulur.
 
-Teknik bir görevlinizle iletişime geçebilmem veya projeyi kısa bir toplantıda tanıtabilmem için bir irtibat kişisi belirlemeniz beni çok memnun eder. Uygulamayı inceleyebilmeniz için bağlantı: [uygulama bağlantısı]
+Teknik bir görevlinizle iletişime geçebilmem veya projeyi kısa bir toplantıda tanıtabilmem için bir irtibat kişisi belirlemeniz beni çok memnun eder. Uygulamayı inceleyebilmeniz için bağlantı: https://ufukcicek81.github.io/kulvar/ (Android: https://ufukcicek81.github.io/kulvar/apk/Kulvar-1.2.0.apk)
 
 İlginiz ve desteğiniz için teşekkür ederim.
 
@@ -45,7 +45,7 @@ Merhaba,
 
 Yüzücüler ve aileler için ücretsiz, reklamsız bir sonuç takip uygulaması (Kulvar) geliştirdim. Kulübünüzün katıldığı yarışların sonuç dosyalarını (Lenex .lxf veya Excel/CSV) paylaşabilirseniz sporcularınızın dereceleri, kişisel rekorları ve gelişim grafikleri uygulamada otomatik olarak görünür. Bir sporcunun verilerinin kaldırılması istenirse hemen kaldırılır.
 
-Uygulama: [uygulama bağlantısı]
+Uygulama: https://ufukcicek81.github.io/kulvar/ (Android: https://ufukcicek81.github.io/kulvar/apk/Kulvar-1.2.0.apk)
 
 Teşekkürler,
 [Ad Soyad] · [Telefon]
